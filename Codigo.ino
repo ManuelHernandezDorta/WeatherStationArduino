@@ -51,6 +51,6 @@ void loop()
   
   Data_to_Sheets(No_of_Parameters,  temperature,  temperature, pressure);         /*1. This function accepts multiple float parameter, here No_of_Parameters decides how many parameters you want to send to Google Sheets; 2. The values sent should be in order as per the column in Google Sheets*/
  
-  delay(3600000);                                       /*60 Sec Delay, Here 10 second delay is just used so that we can see the data pushed to sheets one by one
+  delay(3600000);                                       /*60 min Delay, Here 60 minutes delay is just used so that we can see the data pushed to sheets one by one
                                                         There is nothing like a minimum delay between two data push*/
 }
