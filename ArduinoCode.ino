@@ -13,7 +13,7 @@ Adafruit_BMP085 bmp;
  
 /**********Google Sheets Definations***********/
 char column_name_in_sheets[ ][20] = {"value1","value2","value3"};                        /*1. The Total no of column depends on how many value you have created in Script of Sheets;2. It has to be in order as per the rows decided in google sheets*/
-String Sheets_GAS_ID = "AKfycbxFKsLqCLPRhPETFiqZIQTsr_U4QofN0jjG8lK0rqxi9W2DGoT-7Wgk";                                         /*This is the Sheets GAS ID, you need to look for your sheets id*/
+String Sheets_GAS_ID = "/*Input your google sheet Gas ID*/";                                         /*This is the Sheets GAS ID, you need to look for your sheets id*/
 int No_of_Parameters = 3;                                                                /*Here No_of_Parameters decides how many parameters you want to send it to Google Sheets at once, change it according to your needs*/
 /*********************************************/
 const int DHTPin = D6;     // what digital pin we're connected to
@@ -32,7 +32,7 @@ void setup()
     while (1) {}
   }
 
-  WIFI_Connect("bachillerato","9j1m+X3G8Sh");                                                     /*Provide you Wi-Fi SSID and password to connect to Wi-Fi*/
+  WIFI_Connect("/*Input your wifi names*/","/*Input your wifi password*/");                                                     /*Provide you Wi-Fi SSID and password to connect to Wi-Fi*/
   Google_Sheets_Init(column_name_in_sheets, Sheets_GAS_ID, No_of_Parameters );         /*Sets the column name for Google Sheets, the GAS ID, and the No of Parameter we want to send*/        
   dht.begin();
 
