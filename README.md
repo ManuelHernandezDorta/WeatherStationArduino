@@ -19,6 +19,7 @@ The last step is to install the software in the Google sheet so the data can be 
 
 
 ## Images:
-These are some images to see how we connect the hardware and the sensor.
+These are some images to see how we connect the hardware and the sensor<br/>
+There are more photos of the board in the images folder
 ![Preview Image](https://github.com/ManuelHernandezDorta/Arduino_Medidor_temperatura_humedad_presion_envio_datos_hoja_calculo_google/blob/main/images/1610966629715.jpg)
 ![Preview Image](https://github.com/ManuelHernandezDorta/Arduino_Medidor_temperatura_humedad_presion_envio_datos_hoja_calculo_google/blob/main/images/1610966629722.jpg)
