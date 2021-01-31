@@ -16,7 +16,27 @@ The last step is to install the software in the Google sheet so the data can be 
 
 ## How to modify the code:
 
+In the ArduinoCode.ino you have to change lines:
 
+```cpp
+  WIFI_Connect("/*Input your wifi names*/","/*Input your wifi password*/"); 
+```
+To make possible that the board connect to the wifi. 
+
+```cpp
+String Sheets_GAS_ID = "/*Input your google sheet Gas ID*/"; 
+```
+This one is to connect the board to the google sheet so it can send the data
+
+In GoogleSheet.h you have to change this line:
+
+```cpp
+    var sheet_id = 'Enter your Sheet ID Here'; 		// Spreadsheet ID
+```
+
+To identify the document
+
+If there is any problem you might see this video that I used to make this project and it will help you: [Video](https://www.youtube.com/watch?v=GOiLbs5Sidc&feature=emb_logo)
 
 ## Images:
 These are some images to see how we connect the hardware and the sensor<br/>
