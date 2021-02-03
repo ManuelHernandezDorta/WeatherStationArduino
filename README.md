@@ -1,11 +1,11 @@
-# Arduino_Medidor_temperatura_humedad_presion_envio_datos_hoja_calculo_google
+# Arduino temperature pressure and humidity sensor
 
 Weather station project
 
 ## Hardware:
 
 Wemos d1 mini board based in esp2866<br/>
-DHT22 sensor for temperature and humedety<br/>
+DHT22 sensor for temperature and humidity<br/>
 bmp280 sensor for pressure
 
 ## How to make it:
@@ -40,6 +40,6 @@ If there is any problem you might see this video that I used to make this projec
 
 ## Images:
 These are some images to see how we connect the hardware and the sensor<br/>
-There are more photos of the board in the images folder<br/>
+There are more photos of the board in the images folder
 ![Preview Image](https://github.com/ManuelHernandezDorta/Arduino_Medidor_temperatura_humedad_presion_envio_datos_hoja_calculo_google/blob/main/images/1610966629715.jpg)
 ![Preview Image](https://github.com/ManuelHernandezDorta/Arduino_Medidor_temperatura_humedad_presion_envio_datos_hoja_calculo_google/blob/main/images/1610966629722.jpg)
